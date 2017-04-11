@@ -32,26 +32,27 @@ export default {
 
 .chat {
 	margin-top: 2rem;
+  font-size: 1.6rem;
 	position: relative;
 }
-.bubble__block{  
-    width: 100%; 
+.bubble__block{
+    width: 100%;
     overflow: hidden;
-    margin: 0 auto;  
+    margin: 0 auto;
     margin-top: 1rem;
     position: relative;
-}  
+}
 
 
 .formMsg {
     position: fixed;
     display: block;
 
-    bottom: 30px;
+    bottom: 3rem;
     width: 80%;
     left: 50%;
     transform: translateX(-50%);
-    padding: 10px 0;
+    padding: 1rem 0;
     box-sizing: border-box;
 }
 
@@ -66,12 +67,12 @@ export default {
 .formMsg__input {
     width: 70%;
     padding-left: 5px;
-    height: 30px;
+    height: 3rem;
 }
 
 .formMsg__submit {
     width: 25%;
-    height: 30px;
+    height: 3rem;
     background-color: rgb(0,140,211);
     border-radius: 3px;
     border:none;

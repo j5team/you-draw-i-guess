@@ -1,5 +1,5 @@
 <template>
-	<div>
+	<div id="room">
 		<div class="player__blocks">
 			<player></player>
 			<player></player>
@@ -27,6 +27,12 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
+
+#room {
+  height: 22rem;
+  font-size: 1.6rem;
+}
+
 .player__blocks {
 	display: flex;
 	text-align: center;

@@ -5,7 +5,7 @@
 			<span class="header__subject_value">牙刷</span>
 		</span>
 		<span class="header__image">
-			<img src="../assets/logo.png" alt="你画我猜" width=160 height=50 />
+			<img src="../assets/logo.png" alt="你画我猜"/>
 		</span>
 		<span class="header__time">
 			<span class="header__time__value">60s</span>
@@ -29,7 +29,8 @@ export default {
 .header {
     background-color: rgb(99,227,232);
     width: 100%;
-    height: 50px;
+    height: 5rem;
+    font-size: 1.6rem;
 }
 
 .header > span {
@@ -38,28 +39,33 @@ export default {
 }
 
 .header__subject {
-    left: 10px;
-    line-height: 50px;
+    left: 1rem;
+    line-height: 5rem;
 }
 
 .header__image {
     left: 50%;
-    width: 160px;
-    height: 50px;
+    width: 16rem;
+    height: 5rem;
     transform: translateX(-50%);
 }
 
+.header__image img {
+  width: 16rem;
+  height: 5rem;
+}
+
 .header__time {
-    right: 10px;
+    right: 1rem;
 }
 
 .header__time__value {
-    width: 40px;
-    height: 40px;
+    width: 4rem;
+    height: 4rem;
     padding: 6px;
     border-radius: 50%;
     border: 4px solid #dddddd;
-    line-height: 50px;
+    line-height: 5rem;
     box-sizing: border-box;
 }
 
